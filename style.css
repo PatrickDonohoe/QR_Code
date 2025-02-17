@@ -1,0 +1,68 @@
+/* Widths:
+    Mobile: 375px
+    Desktop: 1440px
+  Colors:
+    White: hsl(0, 0%, 100%)
+    Slate 300: hsl(212, 45%, 89%)
+    Slate 500: hsl(216, 15%, 48%)
+    Slate 900: hsl(218, 44%, 22%)
+  Body Copy:
+    Font Size (paragraph): 15px
+  Font:
+    Family: [Outfit](https://fonts.google.com/speciment/Outfit)
+    Weights: 400, 700
+*/
+body {
+  background-image: url(./images/favicon-32x32.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#qr_backdrop {
+  background-color: hsl(212, 45%, 89%);
+  height: 960px;
+  width: 1440px;
+  vertical-align: auto;
+}
+
+article {
+  display: grid;
+  gap: 16px;
+  background-color: white;
+  width: 320px;
+  height: 499px;
+  padding: 16px 16px 40px;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  display: block;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.text-box {
+  text-align: center;
+  padding: 0 16px;
+  width: 288px;
+  height: 131px;
+  display: grid;
+  gap: 16px;
+}
+h4 {
+  width: 180px;
+  margin: auto;
+}
+
+p {
+  width: 256px;
+  text-align: center;
+  margin: auto;
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+}
