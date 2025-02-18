@@ -13,17 +13,19 @@
     Weights: 400, 700
 */
 body {
-  background-image: url(./images/favicon-32x32.png);
+  background-image: url("./images/favicon-32x32.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  font-family: "Outfit", sans-serif;
 }
 #qr_backdrop {
   background-color: hsl(212, 45%, 89%);
   height: 960px;
   width: 1440px;
-  vertical-align: auto;
+  margin: auto;
+  display: flex;
 }
 
 article {
@@ -31,7 +33,7 @@ article {
   gap: 16px;
   background-color: white;
   width: 320px;
-  height: 499px;
+  /* height: 499px; */
   padding: 16px 16px 40px;
   text-align: center;
   border-radius: 20px;
