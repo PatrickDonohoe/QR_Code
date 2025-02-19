@@ -13,19 +13,31 @@
     Weights: 400, 700
 */
 body {
-  background-image: url("./images/favicon-32x32.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
   font-family: "Outfit", sans-serif;
+  background-color: white;
 }
+#emoji_container {
+  border-radius: 20px;
+  margin: 20px;
+  z-index: 1;
+  position: relative;
+}
+#emoji {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 #qr_backdrop {
   background-color: hsl(212, 45%, 89%);
-  height: 960px;
+  /* height: 960px; */
   width: 1440px;
-  margin: auto;
+  margin: 128px auto;
   display: flex;
+  z-index: 2;
+  position:absolute;
+  padding-top:4rem;
+  padding-bottom: 4rem;
 }
 
 article {
@@ -37,7 +49,8 @@ article {
   padding: 16px 16px 40px;
   text-align: center;
   border-radius: 20px;
-  margin: auto;
+  margin: 32px auto;
+  z-index: 3;
 }
 
 img {
